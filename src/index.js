@@ -1,6 +1,6 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import HelloWorld from "./js/components/HelloWorld";
+import React, { Component } from "react";
+import ReactDOM from "react-dom";
+import App from './js/components/App';
 
 const wrapper = document.getElementById("container");
-wrapper ? ReactDOM.render(<HelloWorld />, wrapper) : false;
+wrapper ? ReactDOM.render(<App />, wrapper) : false;
