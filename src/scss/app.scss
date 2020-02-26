@@ -1,0 +1,25 @@
+@import 'variables';
+@import 'mixins';
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+body {
+    color: $primary-color;
+    @include font-face($primary-font,400, normal);
+    @include font-size(12);
+}
+
+p {
+    @include font-size(16);
+    @include screen(tablet) {
+        @include font-size(14);
+    }
+    @include screen(desktopLarge) {
+        @include font-size(12);
+    }
+}

@@ -23,8 +23,9 @@ class HelloWorld extends Component {
 
   render() {
     return (
-        <React.Fragment>
-            <h1>Hello! World.</h1>
+      <React.Fragment>
+        <h1>Hello! World.</h1>
+        <p>test font size.</p>
       </React.Fragment>
     );
   }
