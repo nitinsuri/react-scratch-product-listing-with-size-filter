@@ -31,6 +31,3 @@ class HelloWorld extends Component {
 }
 
 export default HelloWorld;
-
-const wrapper = document.getElementById("container");
-wrapper ? ReactDOM.render(<HelloWorld />, wrapper) : false;
