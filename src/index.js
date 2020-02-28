@@ -1,6 +1,6 @@
-import React, { Component } from "react";
+import React from "react";
 import ReactDOM from "react-dom";
-import App from './js/components/App';
+import App from './js/App';
 import './scss/app';
 
 const wrapper = document.getElementById("container");
