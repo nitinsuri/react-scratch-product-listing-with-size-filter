@@ -26,6 +26,11 @@ p {
     }
 }
 
+select {
+    @include font-face($primary-font,400, normal);
+    @include font-size(16);
+}
+
 #app-wrapper {
     @include align-center;
     max-width: 1200px;
@@ -35,7 +40,18 @@ p {
         min-width: auto;
         padding: 0;
     }
+    #section-header {
+        background-color: $section-header-background-color;
+        @include flex-container;
+        justify-content: space-between;
+        margin: 2em 0;
+        padding: 1em;
+        h2 {
+            margin: 0;
+        }
+    }
 }
 
 @import 'product-grid';
 @import 'product-tile';
+@import "message-box";

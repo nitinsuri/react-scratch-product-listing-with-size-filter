@@ -10,10 +10,10 @@ class ProductTile extends Component {
                 <Image imageName={ prdctData.productImage } imageAlt={ prdctData.productName } />
                 { prdctData.isSale ? <Badge type={"sale"} label={"Sale"} /> : "" }
                 { prdctData.isExclusive ? <Badge type={"exclusive"} label={"Exclusive"} /> : "" }
-                <p>
+                <div>
                     <h3>{ prdctData.productName }</h3>
                     <h3 className="cost">{ prdctData.price }</h3>
-                </p>
+                </div>
             </div>
         )
     }

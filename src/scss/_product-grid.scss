@@ -1,5 +1,5 @@
 #product-grid {
     align-items: stretch;
-    box-shadow: inset 0 0 0 1px $lighter-grey;
     @include flex-container;
+    justify-content: center;
 }

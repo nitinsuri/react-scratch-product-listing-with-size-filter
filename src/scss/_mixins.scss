@@ -1,4 +1,4 @@
-@mixin font-face($family: "sans-serif", $weight: false, $style: normal) {
+@mixin font-face($family: $primary-font, $weight: false, $style: normal) {
   font-family: $family, Helvetica, Arial, sans-serif;
   @if $weight {
     font-weight: $weight;
